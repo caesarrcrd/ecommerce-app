@@ -1,6 +1,6 @@
 "use client"
 
-import { signIn } from "@/auth"
+import { signIn } from "../../src/auth"
 import { useRouter } from "next/navigation"
 import { useState } from "react"
 import { Input, Button, Card, CardBody } from "@nextui-org/react"
